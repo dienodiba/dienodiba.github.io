@@ -6,6 +6,8 @@
    Typography
    ========================================================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap');
+
 $doc-font-size              : 16;
 
 /* paragraph indention */
@@ -18,7 +20,7 @@ $serif                      : Georgia, Times, serif;
 /*
 $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 */
-$sans-serif                 : -apple-system, "Lucida Grande", sans-serif;
+$sans-serif                 : "News Cycle", sans-serif;
 
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
