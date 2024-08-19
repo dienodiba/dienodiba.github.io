@@ -9,7 +9,7 @@ redirect_from:
 
 <img src="/images/HomepageGif3s.gif" style="width:100%">
 
-# Hi, I'm Dieno!
+# Hi, I'm Dieno
 
 I’m a PhD student in Geophysics at the University of Tokyo, Japan. My research focuses on developing and using the [magnetotelluric (MT) method](https://en.wikipedia.org/wiki/Magnetotellurics){:target="_blank"} to explore fluids and melts that influence magmatic and seismic activity in the Northeast Japan subduction zone.
 
