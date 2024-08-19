@@ -178,7 +178,7 @@
   /*
    background: $background-color;
    */
-  background: $black;
+  background: $masthead-background-color;
 
   a {
     display: block;
@@ -199,8 +199,8 @@
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    background-color: $primary-color;
-    color: #fff;
+    background-color: $masthead-background-color;
+    color: $masthead-link-color;
     cursor: pointer;
     z-index: 100;
   }
@@ -262,7 +262,7 @@
     padding: 5px;
     border: 1px solid $border-color;
     border-radius: $border-radius;
-    background: $black;
+    background: $masthead-background-color;
     box-shadow: 0 0 10px rgba(#000, 0.25);
 
     a {
