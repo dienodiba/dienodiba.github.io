@@ -49,8 +49,11 @@
 .masthead__menu-item {
   display: block;
   list-style-type: none;
+   /*
   white-space: nowrap;
-
+  */
+  white-space: none;
+   
   &--lg {
     padding-right: 3em;
     font-weight: 700;
