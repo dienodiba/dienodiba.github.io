@@ -71,7 +71,7 @@ $black                      : #000;
 $white                      : #fff;
 
 $body-color                 : #fff;
-$background-color           : #1f6feb;
+$background-color           : #fff;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $black;
@@ -117,7 +117,7 @@ $link-color-visited         : mix(#fff, $link-color, 25%);
 /*
 $masthead-link-color        : $primary-color;
 */
-$masthead-link-color        : $black;
+$masthead-link-color        : $white;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
 
