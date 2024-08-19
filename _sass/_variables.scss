@@ -68,6 +68,7 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 $black                      : #000;
+$white                      : #fff;
 
 $body-color                 : #fff;
 $background-color           : #fff;
@@ -116,7 +117,7 @@ $link-color-visited         : mix(#fff, $link-color, 25%);
 /*
 $masthead-link-color        : $primary-color;
 */
-$masthead-link-color        : $black;
+$masthead-link-color        : $white;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
 
