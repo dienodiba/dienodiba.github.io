@@ -70,7 +70,7 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 $black                      : #000;
 $white                      : #fff;
 
-$body-color                 : #fff;
+$body-color                 : #1f6feb;
 $background-color           : #fff;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
@@ -117,7 +117,7 @@ $link-color-visited         : mix(#fff, $link-color, 25%);
 /*
 $masthead-link-color        : $primary-color;
 */
-$masthead-link-color        : $black;
+$masthead-link-color        : $info-color;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
 
