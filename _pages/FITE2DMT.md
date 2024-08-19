@@ -22,7 +22,7 @@ Using an unstructured mesh in 2-D MT inversion has some great benefits. It lets 
 ## Why [Julia](https://julialang.org/){:target="_blank"}?
 Julia has a lot of upsides when it comes to MT inversion. It is super fast and handles complex calculations efficiently. Its syntax is pretty user-friendly and a lot like Python’s or MATLAB's, but it is as speedy as C or Fortran. This makes it great for creating complicated inversion algorithms. Plus, Julia has a ton of libraries for scientific computing, including stuff for linear algebra and parallel processing, which are crucial for MT inversion. It also integrates well with other tools and libraries, making it flexible and easy to scale up the code.
 
-## What type of datasets are compatible with FITE2DMT?
+## What types of data are compatible with FITE2DMT?
 Apparent resistivity, phase, and _tipper_
 
 ## What functionalities are in FITE2DMT?
