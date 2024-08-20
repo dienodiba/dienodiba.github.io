@@ -11,6 +11,6 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
 
-<a href="/destination">
+<a href="/portfolio/portfolio-1">
   <img src="/images/HomepageGif3s.gif" style="width:100%; box-shadow: 0px 5px 25px lightgrey; border-radius: 5px;">
 </a>
