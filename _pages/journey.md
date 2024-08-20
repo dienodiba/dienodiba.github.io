@@ -1,7 +1,7 @@
 ---
 layout: archive
 # title: Journey
-permalink: /Journey/
+permalink: /journey/
 author_profile: true
 ---
 
