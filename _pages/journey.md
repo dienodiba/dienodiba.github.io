@@ -12,5 +12,5 @@ author_profile: true
 {% endfor %} -->
 
 <a href="/journey/iugg2023">
-  <img src="/images/journey_iugg2023_cover.jpg" style="width:100%; box-shadow: 0px 5px 25px lightgrey; border-radius: 5px;">
+  <img src="/images/journey/journey_iugg2023_cover.jpg" style="width:100%; box-shadow: 0px 5px 25px grey; border-radius: 5px;">
 </a>
