@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<img src="/images/HomepageGif3s.gif" style="width:100%">
+<img src="/images/HomepageGif3s.gif" style="width:100%" style="box-shadow: 3px 3px 3px gray;">
 
 # Hi, I'm Dieno
 
