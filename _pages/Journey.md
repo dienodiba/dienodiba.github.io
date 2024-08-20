@@ -1,10 +1,8 @@
 ---
-permalink: /
-# title: Journey
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+layout: archive
+# title: FITE2DMT
+permalink: /FITE2DMT/
+author_profile: false
 ---
 
 <a href="/destination">
