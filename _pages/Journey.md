@@ -2,7 +2,7 @@
 layout: archive
 # title: Journey
 permalink: /Journey/
-author_profile: false
+author_profile: true
 ---
 
 <a href="/destination">
