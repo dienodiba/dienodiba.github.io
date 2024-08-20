@@ -11,7 +11,7 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
 
-<img src="/images/FITE2DMTbanner.jpg" style="width:100%; box-shadow: 0px 5px 25px lightgrey; border-radius: 5px;">
+<img src="/images/FITE2DMTbanner.jpg" style="width:100%; box-shadow: 0px 0px 0px lightgrey; border-radius: 0px;">
 
 # A fast and accurate 2-D magnetotelluric inversion code
 FITE2DMT stands for _FInite Triangular Elements for Two-Dimensional MagnetoTelluric_. As the name suggests, it is a two-dimensional (2-D) finite element magnetotelluric (MT) inversion code that uses an unstructured mesh of triangular elements to represent the resistivity structure. The code is developed in Julia and freely available for use as a Julia package.
