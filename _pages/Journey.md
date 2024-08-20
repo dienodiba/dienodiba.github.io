@@ -1,7 +1,7 @@
 ---
 layout: archive
-# title: FITE2DMT
-permalink: /FITE2DMT/
+# title: Journey
+permalink: /Journey/
 author_profile: false
 ---
 
