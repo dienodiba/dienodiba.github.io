@@ -11,6 +11,10 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
 
-<a href="/journey/iugg2023">
+<a href="/journey/2023tochigi">
+  <img src="/images/journey/2023_tochigi/cover.jpg" style="width:100%; box-shadow: 0px 5px 25px grey; border-radius: 5px;">
+</a>
+
+<a href="/journey/2023iugg">
   <img src="/images/journey/journey_iugg2023_cover.jpg" style="width:100%; box-shadow: 0px 5px 25px grey; border-radius: 5px;">
 </a>
