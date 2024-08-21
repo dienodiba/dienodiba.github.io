@@ -14,7 +14,7 @@ author_profile: true
 <img src="/images/FITE2DMTbanner.jpg" style="width:100%; box-shadow: 0px 0px 0px lightgrey; border-radius: 0px;">
 
 # A fast and accurate 2-D magnetotelluric inversion code
-FITE2DMT stands for _FInite Triangular Elements for Two-Dimensional MagnetoTelluric_. As the name suggests, it is a two-dimensional (2-D) finite element magnetotelluric (MT) inversion code that uses an unstructured mesh of triangular elements to represent the resistivity structure. The code is developed in Julia and freely available for use as a Julia package.
+FITE2DMT stands for _FInite Triangular Elements for Two-Dimensional MagnetoTelluric_. As the name suggests, it is a two-dimensional (2-D) finite element magnetotelluric (MT) inversion code that uses an unstructured mesh of triangular elements to represent the resistivity structure. The code is freely available for use as a Julia package.
 
 ## What are the benefits of using an unstructured mesh in MT inversion?
 Using an unstructured mesh in 2-D MT inversion has some great benefits. It lets you refine the mesh where the geology is complex, which means more accurate results without bogging down your computations. Plus, it’s flexible enough to handle tricky geological features like faults and varying topographies. This means the inversion can better capture the real subsurface details. On top of that, unstructured meshes help optimize your computational resources by reducing the number of elements needed, making the process more efficient and precise.
