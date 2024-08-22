@@ -7,4 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-email: dienodiba[at]gmail.com
+# Contact Me
+
+Email: dienodiba[at]gmail.com
