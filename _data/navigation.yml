@@ -6,11 +6,11 @@
 
 main:
 
-  - title: "FITE2DMT"
-    url: /FITE2DMT
-  
   - title: "MT Solutions"
     url: /MTSolutions
+    
+  - title: "FITE2DMT"
+    url: /FITE2DMT
 
   - title: "Journey"
     url: /journey
