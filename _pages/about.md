@@ -15,4 +15,4 @@ I’m a PhD student in Geophysics at the University of Tokyo, Japan. My research
 
 I’m also into programming and created [FITE2DMT](https://dienodiba.com/FITE2DMT), a Julia-based MT inversion code. It is designed for fast and accurate interpretation of MT data, especially when topography is a factor.
 
-On the side, I’ve started helping out with MT projects, offering support in areas like time-series processing, dimensionality analysis, modeling, inversion, and interpretation.
+On the side, [I’ve started helping out with MT projects](https://dienodiba.com/MTSolutions), offering solutions to data analysis and modeling problems.
