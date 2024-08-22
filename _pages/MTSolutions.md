@@ -1,3 +1,12 @@
+---
+layout: archive
+# title: MTSolutions
+permalink: /MTSolutions/
+author_profile: true
+---
+
+{% include base_path %}
+
 # Magnetotelluric Data Solutions 
 
 Welcome to my geophsyical consulting services with a focus on magnetotelluric (MT) data analysis. I offer professional asssistance to help you for understand and interpret your MT data effectively. My services include time series analysis, structural analysis, and modeling.
