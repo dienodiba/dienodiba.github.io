@@ -36,7 +36,6 @@
   }
 }
 
-/* Original
 .masthead__menu {
 
   ul {
@@ -56,24 +55,4 @@
     padding-right: 3em;
     font-weight: 700;
   }
-}
-*/
-
-.masthead__menu {
-  display: flex;               /* Use Flexbox for layout */
-  justify-content: space-between; /* Distribute space between items */
-  align-items: center;         /* Center items vertically (if needed) */
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.masthead__menu-item {
-  display: block;              /* Ensure menu items are block-level */
-  white-space: nowrap;         /* Prevent text wrapping */
-}
-
-/* Optional: Adjust spacing between the primary link and other links */
-.masthead__menu-item:not(:first-child) {
-  margin-left: 1rem;           /* Space between the primary link and others */
 }
