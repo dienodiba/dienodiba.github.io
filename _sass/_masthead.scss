@@ -43,6 +43,8 @@
     padding: 0;
     clear: both;
     list-style-type: none;
+    display: flex;              /* Use Flexbox for layout */
+    justify-content: flex-end; /* Align list items to the right */
   }
 }
 
