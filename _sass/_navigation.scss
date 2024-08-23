@@ -206,16 +206,21 @@
     z-index: 100;
   }
 
+  .primary-link {
+    /* This will ensure the primary link stays on the left */
+    margin-right: auto;
+  }
+
   .visible-links {
     display: flex;
-    flex: 1;
-    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
 
     li {
       list-style-type: none;
       margin: 0;
       padding: 0;
-      vertical-align: middle;
+      white-space: nowrap;
     }
 
     a {
