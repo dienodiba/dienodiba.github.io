@@ -37,18 +37,22 @@
 }
 
 .masthead__menu {
-  display: flex;               /* Use Flexbox for alignment */
-  align-items: center;         /* Center items vertically (if needed) */
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    list-style-type: none;
+  }
 }
 
 .masthead__menu-item {
-  display: block;              /* Ensure menu items are block-level */
-  white-space: nowrap;         /* Prevent text wrapping */
-}
+  display: block;
+  list-style-type: none;
+  white-space: nowrap;
 
-.masthead__menu-item:first-child {
-  margin-right: auto;          /* Push all subsequent items to the right */
+  &--lg {
+    padding-right: 3em;
+    font-weight: 700;
+  }
 }
