@@ -37,21 +37,17 @@
 }
 
 .masthead__menu {
-/*
+
   ul {
+    display: flex;               /* Use Flexbox for alignment */
+    justify-content: flex-end;  /* Align children (links) to the right */
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
   }
 }
-*/
-  display: flex;               /* Use Flexbox for alignment */
-  justify-content: flex-end;  /* Align children (links) to the right */
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
+  
 .masthead__menu-item {
   display: block;
   list-style-type: none;
