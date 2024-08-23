@@ -175,10 +175,11 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  /*
-   background: $background-color;
-   */
   background: $masthead-background-color;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   a {
     display: block;
@@ -206,26 +207,15 @@
   }
 
   .visible-links {
-    display: table;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
 
     li {
-      display: table-cell;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
       vertical-align: middle;
-
-      &:first-child {
-        font-weight: bold;
-        text-wrap: wrap;
-
-        a {
-          margin-left: 0;
-        }
-      }
-
-      &:last-child {
-        a {
-          margin-right: 0;
-        }
-      }
     }
 
     a {
@@ -239,17 +229,12 @@
         height: 4px;
         background: mix(#fff, $primary-color, 50%);
         width: 100%;
-        -webkit-transition: $global-transition;
         transition: $global-transition;
-        -webkit-transform: scaleX(0);
-            -ms-transform: scaleX(0);
-                transform: scaleX(0); /* hide*/
+        transform: scaleX(0); /* hide */
       }
 
       &:hover:before {
-        -webkit-transform: scaleX(1);
-            -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
+        transform: scaleX(1); /* reveal */
       }
     }
   }
@@ -312,7 +297,6 @@
     }
   }
 }
-
 
 /*
    Navigation list
