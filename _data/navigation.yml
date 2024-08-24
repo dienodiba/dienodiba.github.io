@@ -14,12 +14,6 @@ main:
 
   - title: "Journey"
     url: /journey
-    
-  - title: "Publications"
-    url: https://scholar.google.com/citations?user=p5K7lDUAAAAJ&hl=en
-    
-  - title: "CV"
-    url: /files/CVDienoDiba_20240818.pdf
 
   - title: "Profile"
     url: /profile
