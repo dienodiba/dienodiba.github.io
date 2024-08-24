@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+<img src="/images/journey/2023_tochigi/tochigi-1.jpg">
+
 <!-- Image Slider -->
 <div class="image-slider">
   <input type="radio" id="slide1" name="slider" checked>
