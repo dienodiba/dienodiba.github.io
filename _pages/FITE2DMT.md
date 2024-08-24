@@ -2,7 +2,7 @@
 layout: archive
 # title: FITE2DMT
 permalink: /FITE2DMT/
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}
