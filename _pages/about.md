@@ -17,3 +17,28 @@ redirect_from:
   <button class="prev" onclick="prevSlide()">&#10094;</button>
   <button class="next" onclick="nextSlide()">&#10095;</button>
 </div>
+
+<script>
+let currentIndex = 0;
+
+function showSlide(index) {
+  const slides = document.querySelectorAll('.slider-image');
+  if (index >= slides.length) currentIndex = 0;
+  if (index < 0) currentIndex = slides.length - 1;
+  
+  slides.forEach((slide, i) => {
+    slide.style.display = i === currentIndex ? 'block' : 'none';
+  });
+}
+
+function nextSlide() {
+  showSlide(++currentIndex);
+}
+
+function prevSlide() {
+  showSlide(--currentIndex);
+}
+
+// Initialize slider
+showSlide(currentIndex);
+</script>
