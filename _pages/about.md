@@ -42,3 +42,5 @@ redirect_from:
     slides[currentIndex].checked = true; 
   }, 4000); 
 </script>
+
+I’m a PhD student in Geophysics at the University of Tokyo, focusing on the development and application of the magnetotelluric (MT) method. On the side, [I offer consulting services for MT projects](https://dienodiba.com/MTSolutions/), specializing in data analysis and modeling. I’ve developed [FITE2DMT](https://dienodiba.com/FITE2DMT/), a Julia-based MT inversion code for efficient and precise MT data interpretation. 
