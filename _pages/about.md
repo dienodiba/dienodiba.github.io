@@ -8,49 +8,38 @@ redirect_from:
 ---
 
 <!-- Image Slider -->
-<div class="slider-container">
-  <div class="mySlides fade">
-    <img src="/images/journey/2023_iugg/iugg-1.jpg" style="width:100%;">
+<div class="image-slider">
+  <input type="radio" id="slide1" name="slider" checked>
+  <input type="radio" id="slide2" name="slider">
+  <input type="radio" id="slide3" name="slider">
+  
+  <div class="slider-container">
+    <div class="slide">
+      <img src="/images/image1.jpg" alt="Image 1">
+    </div>
+    <div class="slide">
+      <img src="/images/image2.jpg" alt="Image 2">
+    </div>
+    <div class="slide">
+      <img src="/images/image3.jpg" alt="Image 3">
+    </div>
   </div>
 
-  <div class="mySlides fade">
-    <img src="/images/journey/2023_iugg/iugg-2.jpg" style="width:100%;">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="/images/journey/2023_iugg/iugg-5.jpg" style="width:100%;">
-  </div>
-
-  <div class="dot-container">
-    <span class="dot" onclick="currentSlide(1)"></span> 
-    <span class="dot" onclick="currentSlide(2)"></span> 
-    <span class="dot" onclick="currentSlide(3)"></span> 
+  <div class="slider-dots">
+    <label for="slide1" class="dot"></label>
+    <label for="slide2" class="dot"></label>
+    <label for="slide3" class="dot"></label>
   </div>
 </div>
 
 <script>
-let slideIndex = 0;
-showSlides();
+  let currentIndex = 0;
+  const slides = document.querySelectorAll('input[name="slider"]');
+  const totalSlides = slides.length;
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-
-function currentSlide(n) {
-  slideIndex = n;
-  showSlides();
-}
+  setInterval(() => {
+    slides[currentIndex].checked = false; 
+    currentIndex = (currentIndex + 1) % totalSlides; 
+    slides[currentIndex].checked = true; 
+  }, 2000); 
 </script>
