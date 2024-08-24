@@ -57,6 +57,10 @@ input[type="radio"] {
   transform: translateX(-200%);
 }
 
+#slide4:checked ~ .slider-container {
+  transform: translateX(-300%);
+}
+
 /* Position dots at the bottom center */
 .slider-dots {
   position: absolute;
