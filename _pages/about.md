@@ -18,7 +18,7 @@ redirect_from:
   </div>
 
   <div class="mySlides fade">
-    <img src="/images/journey/2023_iugg/iugg-3.jpg" style="width:100%;">
+    <img src="/images/journey/2023_iugg/iugg-5.jpg" style="width:100%;">
   </div>
 
   <div class="dot-container">
