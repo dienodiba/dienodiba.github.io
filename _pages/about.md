@@ -35,10 +35,35 @@ redirect_from:
   let currentIndex = 0;
   const slides = document.querySelectorAll('input[name="slider"]');
   const totalSlides = slides.length;
+  let autoSlideInterval;
 
-  setInterval(() => {
-    slides[currentIndex].checked = false; 
-    currentIndex = (currentIndex + 1) % totalSlides; 
-    slides[currentIndex].checked = true; 
-  }, 4000); 
+  function startAutoSlide() {
+    autoSlideInterval = setInterval(() => {
+      slides[currentIndex].checked = false;
+      currentIndex = (currentIndex + 1) % totalSlides;
+      slides[currentIndex].checked = true;
+    }, 2000);
+  }
+
+  function stopAutoSlide() {
+    clearInterval(autoSlideInterval);
+  }
+
+  function resetAutoSlide() {
+    stopAutoSlide();
+    startAutoSlide();
+  }
+
+  // Start auto-slide on page load
+  startAutoSlide();
+
+  // Handle dot clicks
+  document.querySelectorAll('.dot').forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      slides[currentIndex].checked = false;
+      currentIndex = index;
+      slides[currentIndex].checked = true;
+      resetAutoSlide(); // Reset the auto-slide timer
+    });
+  });
 </script>
