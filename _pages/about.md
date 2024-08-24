@@ -15,13 +15,13 @@ redirect_from:
   
   <div class="slider-container">
     <div class="slide">
-      <img src="/images/image1.jpg" alt="Image 1">
+      <img src="/images/journey/2023_tochigi/tochigi-1.jpg" alt="Image 1">
     </div>
     <div class="slide">
-      <img src="/images/image2.jpg" alt="Image 2">
+      <img src="/images/journey/2023_tochigi/tochigi-2.jpg" alt="Image 2">
     </div>
     <div class="slide">
-      <img src="/images/image3.jpg" alt="Image 3">
+      <img src="/images/journey/2023_tochigi/tochigi-3.jpg" alt="Image 3">
     </div>
   </div>
 
