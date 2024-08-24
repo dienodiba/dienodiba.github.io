@@ -23,16 +23,17 @@
 .slide {
   flex: 1 0 100%;
   width: 100%;
-  display: none; /* Hide all slides by default */
+  position: relative;
 }
 
 .slide img {
   width: 100%;
   height: auto;
   display: block;
-  object-fit: cover; /* This ensures the aspect ratio is maintained */
+  object-fit: cover; /* Maintain the aspect ratio */
 }
 
+/* Hide all slides by default */
 input[type="radio"] {
   display: none;
 }
@@ -49,32 +50,28 @@ input[type="radio"] {
   transform: translateX(-200%);
 }
 
-/* Make only the active slide visible */
-#slide1:checked ~ .slider-images #s1,
-#slide2:checked ~ .slider-images #s2,
-#slide3:checked ~ .slider-images #s3 {
-  display: block;
-}
-
-label {
+/* Position dots at the bottom center */
+.slider-dots {
   position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  border: none;
+  bottom: 20px; /* Adjust spacing from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 100;
+  transition: background-color 0.3s ease;
 }
 
-.prev {
-  left: 0;
-}
-
-.next {
-  right: 0;
+input#slide1:checked ~ .slider-dots .dot:nth-of-type(1),
+input#slide2:checked ~ .slider-dots .dot:nth-of-type(2),
+input#slide3:checked ~ .slider-dots .dot:nth-of-type(3) {
+  background-color: #717171;
 }
