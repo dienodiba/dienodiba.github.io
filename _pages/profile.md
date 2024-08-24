@@ -1,7 +1,7 @@
 ---
 layout: archive
 # title: Profile
-permalink: /Profile/
+permalink: /profile/
 author_profile: true
 ---
 
