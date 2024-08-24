@@ -8,54 +8,49 @@ redirect_from:
 ---
 
 <!-- Image Slider -->
-<div class="image-slider">
-  <input type="radio" id="slide1" name="slider" checked>
-  <input type="radio" id="slide2" name="slider">
-  <input type="radio" id="slide3" name="slider">
-
-  <div class="slider-container">
-    <div class="slider-images">
-      <div class="slide" id="s1">
-        <img src="/images/journey/2023_iugg/iugg-1.jpg" alt="Slide 1">
-      </div>
-      <div class="slide" id="s2">
-        <img src="/images/journey/2023_iugg/iugg-2.jpg" alt="Slide 2">
-      </div>
-      <div class="slide" id="s3">
-        <img src="/images/journey/2023_iugg/iugg-3.jpg" alt="Slide 3">
-      </div>
-    </div>
+<div class="slider-container">
+  <div class="mySlides fade">
+    <img src="/images/journey/2023_iugg/iugg-1.jpg" style="width:100%;">
   </div>
 
-  <!-- Dots for Navigation -->
-  <div class="slider-dots">
-    <label class="dot" for="slide1"></label>
-    <label class="dot" for="slide2"></label>
-    <label class="dot" for="slide3"></label>
+  <div class="mySlides fade">
+    <img src="/images/journey/2023_iugg/iugg-2.jpg" style="width:100%;">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/images/journey/2023_iugg/iugg-3.jpg" style="width:100%;">
+  </div>
+
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
   </div>
 </div>
 
 <script>
-let currentIndex = 0;
+let slideIndex = 0;
+showSlides();
 
-function showSlide(index) {
-  const slides = document.querySelectorAll('.slider-image');
-  if (index >= slides.length) currentIndex = 0;
-  if (index < 0) currentIndex = slides.length - 1;
-  
-  slides.forEach((slide, i) => {
-    slide.style.display = i === currentIndex ? 'block' : 'none';
-  });
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
-function nextSlide() {
-  showSlide(++currentIndex);
+function currentSlide(n) {
+  slideIndex = n;
+  showSlides();
 }
-
-function prevSlide() {
-  showSlide(--currentIndex);
-}
-
-// Initialize slider
-showSlide(currentIndex);
 </script>
