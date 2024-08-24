@@ -16,13 +16,13 @@ redirect_from:
   <div class="slider-container">
     <div class="slider-images">
       <div class="slide" id="s1">
-        <img src="/images/slide1.jpg" alt="Slide 1">
+        <img src="/images/journey/2023_iugg/iugg-1.jpg" alt="Slide 1">
       </div>
       <div class="slide" id="s2">
-        <img src="/images/slide2.jpg" alt="Slide 2">
+        <img src="/images/journey/2023_iugg/iugg-2.jpg" alt="Slide 2">
       </div>
       <div class="slide" id="s3">
-        <img src="/images/slide3.jpg" alt="Slide 3">
+        <img src="/images/journey/2023_iugg/iugg-3.jpg" alt="Slide 3">
       </div>
     </div>
   </div>
