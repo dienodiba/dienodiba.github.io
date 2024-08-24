@@ -50,6 +50,7 @@ Modeling involves generating electrical resistivity models and validating the mo
 - Detailed and accurate subsurface models for exploration.
 - Improved decision-making based on comprehensive geophysical insights.
 
+
 As I begin my journey in the consulting field, I am eager to offer high-quality analysis at competitive rates. I welcome the opportunity to collaborate and support your projects. 
 
 Inquiry: info@dienodiba.com
