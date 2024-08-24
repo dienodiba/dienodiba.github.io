@@ -21,11 +21,9 @@ redirect_from:
     <div class="slide">
       <img src="/images/journey/2023_tochigi/tochigi-2.jpg" alt="Image 2">
     </div>
-    <!--
     <div class="slide">
       <img src="/images/journey/2023_tochigi/tochigi-3.jpg" alt="Image 3">
     </div>
-    -->
   </div>
 
   <div class="slider-dots">
