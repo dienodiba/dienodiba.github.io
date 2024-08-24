@@ -191,6 +191,21 @@
   }
 }
 
+/* Ensure full width hero section */
+.full-hero {
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Hide any overflow */
+  position: relative; /* To position child elements if needed */
+}
+
+.full-hero-image {
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  object-fit: cover; /* Cover the hero area without distortion */
+  display: block; /* Remove any extra spacing around the image */
+}
+
 /*
    Social sharing
    ========================================================================== */
