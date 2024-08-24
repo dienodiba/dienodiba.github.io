@@ -21,9 +21,11 @@ redirect_from:
     <div class="slide">
       <img src="/images/journey/2023_tochigi/tochigi-2.jpg" alt="Image 2">
     </div>
+    <!--
     <div class="slide">
       <img src="/images/journey/2023_tochigi/tochigi-3.jpg" alt="Image 3">
     </div>
+    -->
   </div>
 
   <div class="slider-dots">
@@ -42,5 +44,5 @@ redirect_from:
     slides[currentIndex].checked = false; 
     currentIndex = (currentIndex + 1) % totalSlides; 
     slides[currentIndex].checked = true; 
-  }, 2000); 
+  }, 4000); 
 </script>
