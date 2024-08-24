@@ -2,7 +2,7 @@
 layout: archive
 # title: MTSolutions
 permalink: /MTSolutions/
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}
