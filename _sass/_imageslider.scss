@@ -28,7 +28,9 @@
 
 .slide img {
   width: 100%;
+  height: auto;
   display: block;
+  object-fit: cover; /* This ensures the aspect ratio is maintained */
 }
 
 input[type="radio"] {
