@@ -9,6 +9,11 @@ redirect_from:
 
 <!-- Image Slider -->
 <div class="image-slider">
+  <input type="radio" name="slider" id="slide1" checked>
+  <input type="radio" name="slider" id="slide2">
+  <input type="radio" name="slider" id="slide3">
+  
+<div class="image-slider">
   <div class="slider-container">
     <img src="/images/journey/2023_tochigi/tochigi-1.jpg" class="slider-image" alt="Image 1">
     <img src="/images/journey/2023_tochigi/tochigi-2.jpg" class="slider-image" alt="Image 2">
