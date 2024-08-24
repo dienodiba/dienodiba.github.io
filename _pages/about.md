@@ -7,11 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<!-- Hero Section -->
-<div class="page__hero">
-  <img src="/images/HomepageGif3s.gif" class="page__hero-image" alt="Hero Image">
-  <!-- Optional Caption -->
-  <div class="page__hero-caption">
-    <p>Your caption here</p>
-  </div>
+<!-- Full-Width Hero Section -->
+<div class="full-hero">
+  <img src="/images/HomepageGif3s.gif" class="full-hero-image" alt="Hero Image">
 </div>
