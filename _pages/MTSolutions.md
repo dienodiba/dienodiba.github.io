@@ -52,5 +52,5 @@ Modeling involves generating electrical resistivity models and validating the mo
 
 As I begin my journey in the consulting field, I am eager to offer high-quality analysis at competitive rates. I welcome the opportunity to collaborate and support your projects. 
 
-Feel free to connect with me at info@dienodiba.com to discuss how we can work together.
+Inquiry: info@dienodiba.com
  
