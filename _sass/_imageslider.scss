@@ -1,0 +1,75 @@
+/* Image Slider Styles */
+.image-slider {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-container {
+  display: flex;
+  width: 300%; /* Adjust according to number of slides */
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-images {
+  display: flex;
+  width: 100%;
+}
+
+.slide {
+  flex: 1 0 100%;
+  width: 100%;
+  display: none; /* Hide all slides by default */
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#slide1:checked ~ .slider-container {
+  transform: translateX(0);
+}
+
+#slide2:checked ~ .slider-container {
+  transform: translateX(-100%);
+}
+
+#slide3:checked ~ .slider-container {
+  transform: translateX(-200%);
+}
+
+/* Make only the active slide visible */
+#slide1:checked ~ .slider-images #s1,
+#slide2:checked ~ .slider-images #s2,
+#slide3:checked ~ .slider-images #s3 {
+  display: block;
+}
+
+label {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
