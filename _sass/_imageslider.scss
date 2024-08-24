@@ -7,12 +7,17 @@
   max-width: 100%;
   margin: auto;
   overflow: hidden;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
 }
 
 .slider-container {
   display: flex;
   width: 300%; /* Adjust according to number of slides */
+  height: 100%; /* Ensure container height is consistent */
   transition: transform 0.5s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .slider-images {
@@ -31,8 +36,8 @@
 
 .slide img {
   width: 100%;
-  height: auto;
-  object-fit: cover; /* Maintain aspect ratio */
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio, fill the container */
 }
 
 /* Hide all slides by default */
@@ -55,7 +60,7 @@ input[type="radio"] {
 /* Position dots at the bottom center */
 .slider-dots {
   position: absolute;
-  bottom: 20px; /* Adjust spacing from the bottom */
+  bottom: 10px; /* Adjust spacing from the bottom */
   left: 50%;
   transform: translateX(-50%);
   display: flex;
