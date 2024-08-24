@@ -9,18 +9,30 @@ redirect_from:
 
 <!-- Image Slider -->
 <div class="image-slider">
-  <input type="radio" name="slider" id="slide1" checked>
-  <input type="radio" name="slider" id="slide2">
-  <input type="radio" name="slider" id="slide3">
-  
-<div class="image-slider">
+  <input type="radio" id="slide1" name="slider" checked>
+  <input type="radio" id="slide2" name="slider">
+  <input type="radio" id="slide3" name="slider">
+
   <div class="slider-container">
-    <img src="/images/journey/2023_tochigi/tochigi-1.jpg" class="slider-image" alt="Image 1">
-    <img src="/images/journey/2023_tochigi/tochigi-2.jpg" class="slider-image" alt="Image 2">
-    <img src="/images/journey/2023_tochigi/tochigi-3.jpg" class="slider-image" alt="Image 3">
+    <div class="slider-images">
+      <div class="slide" id="s1">
+        <img src="/images/slide1.jpg" alt="Slide 1">
+      </div>
+      <div class="slide" id="s2">
+        <img src="/images/slide2.jpg" alt="Slide 2">
+      </div>
+      <div class="slide" id="s3">
+        <img src="/images/slide3.jpg" alt="Slide 3">
+      </div>
+    </div>
   </div>
-  <button class="prev" onclick="prevSlide()">&#10094;</button>
-  <button class="next" onclick="nextSlide()">&#10095;</button>
+
+  <!-- Dots for Navigation -->
+  <div class="slider-dots">
+    <label class="dot" for="slide1"></label>
+    <label class="dot" for="slide2"></label>
+    <label class="dot" for="slide3"></label>
+  </div>
 </div>
 
 <script>
