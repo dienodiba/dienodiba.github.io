@@ -2,50 +2,79 @@
    IMAGE SLIDER STYLES
    ========================================================================== */
 
-.slider-container {
+.image-slider {
   position: relative;
   max-width: 100%;
   margin: auto;
   overflow: hidden;
 }
 
-.mySlides {
+.slider-container {
+  display: flex;
+  width: 300%; /* Adjust according to number of slides */
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-images {
+  display: flex;
+  width: 100%;
+}
+
+.slide {
+  flex: 1 0 100%;
+  position: relative;
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center;     /* Center the image vertically */
+  overflow: hidden;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain; /* Maintain aspect ratio */
+}
+
+/* Hide all slides by default */
+input[type="radio"] {
   display: none;
 }
 
-.mySlides img {
-  width: 100%;
-  height: auto;
-  object-fit: cover; /* Ensures images maintain their aspect ratio */
+#slide1:checked ~ .slider-container {
+  transform: translateX(0);
 }
 
-.fade {
-  animation: fadeEffect 1s ease-in-out;
+#slide2:checked ~ .slider-container {
+  transform: translateX(-100%);
 }
 
-@keyframes fadeEffect {
-  from {opacity: .4} 
-  to {opacity: 1}
+#slide3:checked ~ .slider-container {
+  transform: translateX(-200%);
 }
 
-.dot-container {
-  text-align: center;
+/* Position dots at the bottom center */
+.slider-dots {
   position: absolute;
-  bottom: 15px;
-  width: 100%;
+  bottom: 20px; /* Adjust spacing from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 10;
 }
 
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 5px;
+  width: 12px;
+  height: 12px;
   background-color: #bbb;
   border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.active, .dot:hover {
+input#slide1:checked ~ .slider-dots .dot:nth-of-type(1),
+input#slide2:checked ~ .slider-dots .dot:nth-of-type(2),
+input#slide3:checked ~ .slider-dots .dot:nth-of-type(3) {
   background-color: #717171;
 }
