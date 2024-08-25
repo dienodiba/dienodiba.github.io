@@ -41,12 +41,13 @@
 .slide-text-title {
   position: absolute;
   top: 10px; /* Distance from the top */
-  right: 10px; /* Distance from the right */
+  left: 10px; /* Distance from the left */
   background-color: none; /* Semi-transparent background */
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 3em;
+  font-weight: bold; /* Bold text */
 }
 
 /* Button container positioning */
