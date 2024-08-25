@@ -47,19 +47,19 @@
   padding: 0px 0px;
   border-radius: 5px;
   font-size: 3em;
-  font-weight: bold; /* Bold text */
+  font-weight: 600; /* SemiBold text */
 }
 
 .slide-text-body {
   position: absolute;
-  top: 30px; /* Distance from the top */
+  top: 30%; /* Distance from the top */
   left: 10px; /* Distance from the left */
   background-color: none; /* Semi-transparent background */
   color: white;
   padding: 0px 0px;
   border-radius: 5px;
   font-size: 1em;
-  font-weight: bold; /* Bold text */
+  font-weight: 400; /* normal text */
 }
 
 /* Button container positioning */
@@ -77,8 +77,8 @@
   border: none; /* Remove border */
   border-radius: 10px; /* Rounded corners */
   text-decoration: none; /* Remove underline */
-  font-size: 14px; /* Font size */
-  font-weight: bold; /* Bold text */
+  font-size: 1em; /* Font size */
+  font-weight: 400; /* normal text */
   display: inline-block; /* Make it inline-block to respect padding */
   transition: background-color 0.3s ease; /* Smooth background color change */
 }
