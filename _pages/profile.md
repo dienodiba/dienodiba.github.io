@@ -11,6 +11,8 @@ author_profile: false
 
 ## About Me
 
+<img src="/images/Tezza-5166.jpg" style="width:30%; float:right; border-radius: 5px;">
+
 I am a PhD student in Geophysics at the University of Tokyo, with a research focus on the magnetotelluric (MT) method to explore the electrical resistivity structure beneath the southern part of Tohoku, Northeast Japan. My research aims to unveil how fluids and melts influence magmatic and seismic activity within this subduction zone. As part of my doctoral studies, I am developing a three-dimensional MT inversion scheme that incorporates a weighted roughness operator to integrate structural information from guiding models into the resistivity inversion process.
 
 I earned my Master’s degree in Geophysics from the University of Tokyo, where I also worked on developing a two-dimensional MT inversion code using MATLAB and Julia. My master’s research involved applying this code to analyze MT data from the southern part of Tohoku. Prior to that, I completed my Bachelor’s degree in Physics at Bandung Institute of Technology, where I mapped thermal demagnetization areas around Papandayan Volcano, Indonesia, using geomagnetic data.
