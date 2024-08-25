@@ -17,23 +17,26 @@ redirect_from:
     <div class="slide">
       <img src="/images/imageslider/slider-1.jpg" alt="Image 1">
       <div class="button-container">
-        <a class="learn-more-button" href="https://dienodiba.com/MTSolutions" target="_blank">Learn More</a>
+        <a class="learn-more-button" href="https://dienodiba.com/MTSolutions">Learn more</a>
       </div>
     </div>
     <div class="slide">
       <img src="/images/imageslider/slider-2.jpg" alt="Image 2">
       <div class="button-container">
-        <a class="learn-more-button" href="https://dienodiba.com/MTSolutions" target="_blank">Learn More</a>
+        <a class="learn-more-button" href="https://dienodiba.com/FITE2DMT">Learn more</a>
       </div>
     </div>
     <div class="slide">
       <img src="/images/imageslider/slider-3.jpg" alt="Image 3">
       <div class="button-container">
-        <a class="learn-more-button" href="https://dienodiba.com/MTSolutions" target="_blank">Learn More</a>
+        <a class="learn-more-button" href="https://dienodiba.com/journey">Discover now</a>
       </div>
     </div>
     <div class="slide">
       <img src="/images/imageslider/slider-4.jpg" alt="Image 4">
+      <div class="button-container">
+        <a class="learn-more-button" href="https://dienodiba.com/profile">About me</a>
+      </div>
     </div>
   </div>
 
