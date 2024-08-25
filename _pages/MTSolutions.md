@@ -17,11 +17,13 @@ Welcome to my geophsyical consulting services with a focus on magnetotelluric (M
 Time series analysis involves inspecting, cleaning, and transforming time series data into frequency domain data with accuracy and reliability.
 
 ### Services Offered:
-- **Data Cleaning**: Removing noise, applying filters, and selecting high quality data segments to enhance signal coherency.
-- **Fourier Transform**: Transforming the time series into frequency domain impedance and tipper.
+- **Inspection**: Examining the raw time series data to ensure it meets the standards for processing and interpretation.
+- **Cleaning**: Removing noise, applying filters, and selecting high quality data segments to enhance signal coherency.
+- **FFT**: Transforming the time series into frequency domain impedance and tipper.
 
 ### Benefits
-- Clean data for enhanced interpretation of key geopysical features.
+- Error identification in data for potential re-acquisition.
+- Clean data for enhanced interpretation of key geophysical features.
 
 ## 2. Data Analysis
 
@@ -30,7 +32,7 @@ Data analysis includes extracting information on the dimensionality, orientation
 
 ### Services Offered:
 - **Dimensionality assessment**: Evaluating whether the overall subsurface structure is 1D, 2D, or 3D.
-- **Structure Orientation**: Analyzing the subsurface orientation and anisotropy.
+- **Structural analysis**: Analyzing the subsurface orientation and anisotropy.
 
 ### Benefits:
 - Clear understanding of the overall trend and complexity of the structure.
