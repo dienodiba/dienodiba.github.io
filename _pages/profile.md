@@ -7,9 +7,7 @@ author_profile: false
 
 {% include base_path %}
 
-# Dieno Diba
-
-## About Me
+## Dieno Diba
 
 <img src="/images/Tezza-5166.jpg" style="width:30%; float:left; border-radius: 5px; margin-right: 1em; margin-top: 1.2em; margin-bottom: 0em">
 
