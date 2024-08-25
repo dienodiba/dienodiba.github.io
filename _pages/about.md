@@ -77,32 +77,25 @@ function resetSlider(index) {
   startSlider();
 }
 
-function handleSwipe(diffX) {
-  if (Math.abs(diffX) > 30) { // Minimum swipe distance
-    if (diffX > 0) {
-      // Swipe left
-      slides[currentIndex].checked = false;
-      currentIndex = (currentIndex + 1) % totalSlides;
-      slides[currentIndex].checked = true;
-    } else {
-      // Swipe right
-      slides[currentIndex].checked = false;
-      currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-      slides[currentIndex].checked = true;
-    }
-    resetSlider(currentIndex);
-  }
+function handleSwipe(diffX) {<script>
+let currentIndex = 0;
+const slides = document.querySelectorAll('input[name="slider"]');
+const totalSlides = slides.length;
+let slideInterval;
+
+function startSlider() {
+  slideInterval = setInterval(() => {
+    slides[currentIndex].checked = false; 
+    currentIndex = (currentIndex + 1) % totalSlides; 
+    slides[currentIndex].checked = true; 
+  }, 5000); 
 }
 
-document.querySelector('.image-slider').addEventListener('touchstart', (e) => {
-  touchStartX = e.touches[0].clientX;
-});
-
-document.querySelector('.image-slider').addEventListener('touchend', (e) => {
-  const touchEndX = e.changedTouches[0].clientX;
-  const diffX = touchStartX - touchEndX;
-  handleSwipe(diffX);
-});
+function resetSlider(index) {
+  clearInterval(slideInterval);
+  currentIndex = index;
+  startSlider();
+}
 
 slides.forEach((slide, index) => {
   slide.addEventListener('change', () => resetSlider(index));
