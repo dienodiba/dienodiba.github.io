@@ -4,7 +4,7 @@
 
 .image-slider {
   position: relative;
-  width: 500px;
+  max-width: 100%;
   overflow: hidden;
   padding-top: 56.25%; /* 16:9 aspect ratio */
 }
