@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: archive-indent
 # title: Profile
 permalink: /profile/
 author_profile: true
