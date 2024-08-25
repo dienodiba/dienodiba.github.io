@@ -61,6 +61,7 @@ let currentIndex = 0;
 const slides = document.querySelectorAll('input[name="slider"]');
 const totalSlides = slides.length;
 let slideInterval;
+let touchStartX = 0;
 
 function startSlider() {
   slideInterval = setInterval(() => {
@@ -76,43 +77,36 @@ function resetSlider(index) {
   startSlider();
 }
 
+function handleSwipe(diffX) {
+  if (Math.abs(diffX) > 30) { // Minimum swipe distance
+    if (diffX > 0) {
+      // Swipe left
+      slides[currentIndex].checked = false;
+      currentIndex = (currentIndex + 1) % totalSlides;
+      slides[currentIndex].checked = true;
+    } else {
+      // Swipe right
+      slides[currentIndex].checked = false;
+      currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+      slides[currentIndex].checked = true;
+    }
+    resetSlider(currentIndex);
+  }
+}
+
+document.querySelector('.image-slider').addEventListener('touchstart', (e) => {
+  touchStartX = e.touches[0].clientX;
+});
+
+document.querySelector('.image-slider').addEventListener('touchend', (e) => {
+  const touchEndX = e.changedTouches[0].clientX;
+  const diffX = touchStartX - touchEndX;
+  handleSwipe(diffX);
+});
+
 slides.forEach((slide, index) => {
   slide.addEventListener('change', () => resetSlider(index));
 });
 
 startSlider();
-
-// Touch control
-let startX = 0;
-let endX = 0;
-
-function handleSwipe() {
-  const sliderContainer = document.querySelector('.slider-container');
-  
-  sliderContainer.addEventListener('touchstart', function(e) {
-    startX = e.changedTouches[0].screenX;
-  });
-
-  sliderContainer.addEventListener('touchend', function(e) {
-    endX = e.changedTouches[0].screenX;
-    const diffX = startX - endX;
-
-    if (Math.abs(diffX) > 30) { // Minimum swipe distance
-      if (diffX > 0) {
-        // Swipe left
-        slides[currentIndex].checked = false;
-        currentIndex = (currentIndex + 1) % totalSlides;
-        slides[currentIndex].checked = true;
-      } else {
-        // Swipe right
-        slides[currentIndex].checked = false;
-        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-        slides[currentIndex].checked = true;
-      }
-      resetSlider(currentIndex);
-    }
-  });
-}
-
-handleSwipe();
 </script>
