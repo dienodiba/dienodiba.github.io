@@ -32,7 +32,7 @@ redirect_from:
     </div>
     <div class="slide">
       <img src="/images/imageslider/slider-3-notext.jpg" alt="Image 3">
-      <div class="slide-text-title">My Journey</div>
+      <div class="slide-text-title">Journey</div>
       <div class="slide-text-body">Research highlights: Fieldwork to Conferences</div>
       <div class="button-container">
         <a class="learn-more-button" href="https://dienodiba.com/journey">Discover now</a>
