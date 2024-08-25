@@ -41,7 +41,7 @@
 .slide-text-title {
   position: absolute;
   top: 5px; /* Distance from the top */
-  left: 10px; /* Distance from the left */
+  left: 20px; /* Distance from the left */
   background-color: none; /* Semi-transparent background */
   color: white;
   padding: 0px 0px;
@@ -52,21 +52,24 @@
 
 .slide-text-body {
   position: absolute;
-  top: 20%; /* Distance from the top */
-  left: 10px; /* Distance from the left */
+  top: 15%; /* Distance from the top */
+  left: 20px; /* Distance from the left */
   background-color: none; /* Semi-transparent background */
   color: white;
   padding: 0px 0px;
   border-radius: 5px;
   font-size: 2em;
   font-weight: 400; /* normal text */
+  max-width: 50%; /* Text container will be at most 50% of the parent's width */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 /* Button container positioning */
 .button-container {
   position: absolute;
   bottom: 50%; /* Adjust spacing from the bottom */
-  left: 10px; /* Adjust spacing from the left */
+  left: 20px; /* Adjust spacing from the left */
 }
 
 /* Button styling */
