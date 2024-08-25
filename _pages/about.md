@@ -16,7 +16,7 @@ redirect_from:
   <div class="slider-container">
     <div class="slide">
       <img src="/images/imageslider/slider-1-notext.jpg" alt="Image 1">
-      <div class="slide-text-title">MT Solutions</div>
+      <div class="slide-text-title">MT Solution</div>
       <div class="slide-text-body">Helping you understand and interpret your MT data</div>
       <div class="button-container">
         <a class="learn-more-button" href="https://dienodiba.com/MTSolutions">Learn more</a>
@@ -24,18 +24,24 @@ redirect_from:
     </div>
     <div class="slide">
       <img src="/images/imageslider/slider-2-notext.jpg" alt="Image 2">
+      <div class="slide-text-title">FITE2DMT</div>
+      <div class="slide-text-body">Fast and accurate MT inversion code</div>
       <div class="button-container">
         <a class="learn-more-button" href="https://dienodiba.com/FITE2DMT">Learn more</a>
       </div>
     </div>
     <div class="slide">
       <img src="/images/imageslider/slider-3-notext.jpg" alt="Image 3">
+      <div class="slide-text-title">My Journey</div>
+      <div class="slide-text-body">Research highlights: Fieldwork to Conferences</div>
       <div class="button-container">
         <a class="learn-more-button" href="https://dienodiba.com/journey">Discover now</a>
       </div>
     </div>
     <div class="slide">
       <img src="/images/imageslider/slider-4-notext.jpg" alt="Image 4">
+      <div class="slide-text-title">About Me</div>
+      <div class="slide-text-body">Geophysics PhD Student specializing in MT</div>
       <div class="button-container">
         <a class="learn-more-button" href="https://dienodiba.com/profile">About me</a>
       </div>
