@@ -50,6 +50,18 @@
   font-weight: bold; /* Bold text */
 }
 
+.slide-text-body {
+  position: absolute;
+  top: 30px; /* Distance from the top */
+  left: 10px; /* Distance from the left */
+  background-color: none; /* Semi-transparent background */
+  color: white;
+  padding: 0px 0px;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold; /* Bold text */
+}
+
 /* Button container positioning */
 .button-container {
   position: absolute;
