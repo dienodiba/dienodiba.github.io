@@ -60,7 +60,7 @@
   border-radius: 5px;
   font-size: 1.5em;
   font-weight: 400; /* normal text */
-  max-width: 70%; /* Text container will be at most 50% of the parent's width */
+  max-width: 80%; /* Text container will be at most 50% of the parent's width */
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
@@ -68,7 +68,7 @@
 /* Button container positioning */
 .button-container {
   position: absolute;
-  top: 50%; /* Adjust spacing from the top */
+  top: 40%; /* Adjust spacing from the top */
   left: 20px; /* Adjust spacing from the left */
 }
 
