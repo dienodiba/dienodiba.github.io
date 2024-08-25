@@ -62,10 +62,6 @@ const slides = document.querySelectorAll('input[name="slider"]');
 const totalSlides = slides.length;
 let slideInterval;
 
-// Swipe variables
-let startX, endX;
-const threshold = 50; // Minimum swipe distance in pixels
-
 function startSlider() {
   slideInterval = setInterval(() => {
     slides[currentIndex].checked = false; 
@@ -80,48 +76,43 @@ function resetSlider(index) {
   startSlider();
 }
 
-function handleSwipe() {
-  const sliderContainer = document.querySelector('.slider-container');
-  
-  sliderContainer.addEventListener('touchstart', (event) => {
-    startX = event.touches[0].clientX;
-  });
-
-  sliderContainer.addEventListener('touchend', (event) => {
-    endX = event.changedTouches[0].clientX;
-    handleSwipeDirection();
-  });
-
-  function handleSwipeDirection() {
-    const distance = endX - startX;
-    if (Math.abs(distance) > threshold) {
-      if (distance < 0) {
-        // Swiped left
-        nextSlide();
-      } else {
-        // Swiped right
-        prevSlide();
-      }
-    }
-  }
-
-  function nextSlide() {
-    slides[currentIndex].checked = false; 
-    currentIndex = (currentIndex + 1) % totalSlides; 
-    slides[currentIndex].checked = true; 
-  }
-
-  function prevSlide() {
-    slides[currentIndex].checked = false; 
-    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides; 
-    slides[currentIndex].checked = true; 
-  }
-}
-
 slides.forEach((slide, index) => {
   slide.addEventListener('change', () => resetSlider(index));
 });
 
 startSlider();
+
+// Touch control
+let startX = 0;
+let endX = 0;
+
+function handleSwipe() {
+  const sliderContainer = document.querySelector('.slider-container');
+  
+  sliderContainer.addEventListener('touchstart', function(e) {
+    startX = e.changedTouches[0].screenX;
+  });
+
+  sliderContainer.addEventListener('touchend', function(e) {
+    endX = e.changedTouches[0].screenX;
+    const diffX = startX - endX;
+
+    if (Math.abs(diffX) > 30) { // Minimum swipe distance
+      if (diffX > 0) {
+        // Swipe left
+        slides[currentIndex].checked = false;
+        currentIndex = (currentIndex + 1) % totalSlides;
+        slides[currentIndex].checked = true;
+      } else {
+        // Swipe right
+        slides[currentIndex].checked = false;
+        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+        slides[currentIndex].checked = true;
+      }
+      resetSlider(currentIndex);
+    }
+  });
+}
+
 handleSwipe();
 </script>
