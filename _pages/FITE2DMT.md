@@ -36,4 +36,4 @@ For more please check out the original documentation of FITE2DMT here:
 Diba D, Nurhasan, Uyeshima M, Usui Y (2024) Two-dimensional magnetotelluric inversion using unstructured triangular mesh implemented in Julia. Journal of Physics: Conference Series, **2734** 012008. [doi.org/10.1088/1742-6596/2734/1/012008](https://doi.org/10.1088/1742-6596/2734/1/012008){:target="_blank"}.
 
 ## Considering trying out FITE2DMT?
-Awesome! FITE2DMT is free and you can get it as a Julia package from [my Github page](https://github.com/dienodiba/Fite2dmt.jl){:target="_blank"}. Just remember to cite the original documentation if you use it in your work—it's a great way to give credit and support future updates.
+Cool! FITE2DMT is free and you can get it as a Julia package from [my Github page](https://github.com/dienodiba/Fite2dmt.jl){:target="_blank"}. Just remember to cite the original documentation if you use it in your work—it's a great way to give credit and support future updates.
