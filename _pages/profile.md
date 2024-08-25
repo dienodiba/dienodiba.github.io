@@ -29,4 +29,4 @@ Email: dienodiba@gmail.com
 [Google Scholar](https://scholar.google.com/citations?user=p5K7lDUAAAAJ&hl=en){:target="_blank"}, 
 [Github](https://github.com/dienodiba){:target="_blank"}, 
 [Instagram](https://www.instagram.com/dienodiba){:target="_blank"}, 
-[LinkedIn](www.linkedin.com/in/dienodiba){:target="_blank"}
+[LinkedIn](linkedin.com/in/dienodiba){:target="_blank"}
