@@ -16,12 +16,21 @@ redirect_from:
   <div class="slider-container">
     <div class="slide">
       <img src="/images/imageslider/slider-1.jpg" alt="Image 1">
+      <div class="button-container">
+        <a class="learn-more-button" href="https://dienodiba.com/MTSolutions" target="_blank">Learn More</a>
+      </div>
     </div>
     <div class="slide">
       <img src="/images/imageslider/slider-2.jpg" alt="Image 2">
+      <div class="button-container">
+        <a class="learn-more-button" href="https://dienodiba.com/MTSolutions" target="_blank">Learn More</a>
+      </div>
     </div>
     <div class="slide">
       <img src="/images/imageslider/slider-3.jpg" alt="Image 3">
+      <div class="button-container">
+        <a class="learn-more-button" href="https://dienodiba.com/MTSolutions" target="_blank">Learn More</a>
+      </div>
     </div>
     <div class="slide">
       <img src="/images/imageslider/slider-4.jpg" alt="Image 4">
