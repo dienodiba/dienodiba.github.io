@@ -41,7 +41,7 @@ redirect_from:
     <div class="slide">
       <img src="/images/imageslider/slider-4-notext.jpg" alt="Image 4">
       <div class="slide-text-title">About Me</div>
-      <div class="slide-text-body">Geophysics PhD student at University of Tokyo<\div>
+      <div class="slide-text-body">Geophysics PhD student at University of Tokyo</div>
       <div class="button-container">
         <a class="learn-more-button" href="https://dienodiba.com/profile">About me</a>
       </div>
