@@ -11,8 +11,8 @@
 
 .slider-container {
   display: flex;
-  width: 60vw; /* Adjust according to number of slides */
-  height: 60vh; /* Ensure container height is consistent */
+  width: 100%; /* Adjust according to number of slides */
+  height: 100%; /* Ensure container height is consistent */
   transition: transform 0.5s ease-in-out;
   position: absolute;
   top: 0;
