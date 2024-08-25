@@ -17,6 +17,7 @@ redirect_from:
     <div class="slide">
       <img src="/images/imageslider/slider-1-notext.jpg" alt="Image 1">
       <div class="slide-text-title">MT Solutions</div>
+      <div class="slide-text-body">Helping you understand and interpret your MT data</div>
       <div class="button-container">
         <a class="learn-more-button" href="https://dienodiba.com/MTSolutions">Learn more</a>
       </div>
