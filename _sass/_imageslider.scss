@@ -47,11 +47,11 @@
 
 /* Button styling */
 .learn-more-button {
-  background-color: #007bff; /* Button background color */
-  color: #fff; /* Text color */
+  background-color: $white; /* Button background color */
+  color: $black; /* Text color */
   padding: 10px 20px; /* Button padding */
   border: none; /* Remove border */
-  border-radius: 5px; /* Rounded corners */
+  border-radius: 10px; /* Rounded corners */
   text-decoration: none; /* Remove underline */
   font-size: 14px; /* Font size */
   font-weight: bold; /* Bold text */
@@ -60,7 +60,7 @@
 }
 
 .learn-more-button:hover {
-  background-color: #0056b3; /* Darker shade for hover effect */
+  background-color: $lightgray; /* Darker shade for hover effect */
 }
 
 /* Hide all slides by default */
