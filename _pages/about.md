@@ -43,7 +43,7 @@ redirect_from:
       <div class="slide-text-title">About Me</div>
       <div class="slide-text-body">Geophysics PhD student at University of Tokyo</div>
       <div class="button-container">
-        <a class="learn-more-button" href="https://dienodiba.com/profile">About me</a>
+        <a class="learn-more-button" href="https://dienodiba.com/profile">View my profile</a>
       </div>
     </div>
   </div>
