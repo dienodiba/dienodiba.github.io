@@ -37,15 +37,30 @@ redirect_from:
 </div>
 
 <script>
-  let currentIndex = 0;
-  const slides = document.querySelectorAll('input[name="slider"]');
-  const totalSlides = slides.length;
+let currentIndex = 0;
+const slides = document.querySelectorAll('input[name="slider"]');
+const totalSlides = slides.length;
+let slideInterval;
 
-  setInterval(() => {
+function startSlider() {
+  slideInterval = setInterval(() => {
     slides[currentIndex].checked = false; 
     currentIndex = (currentIndex + 1) % totalSlides; 
     slides[currentIndex].checked = true; 
   }, 5000); 
+}
+
+function resetSlider(index) {
+  clearInterval(slideInterval);
+  currentIndex = index;
+  startSlider();
+}
+
+slides.forEach((slide, index) => {
+  slide.addEventListener('change', () => resetSlider(index));
+});
+
+startSlider();
 </script>
 
 I’m a PhD student in Geophysics at the University of Tokyo, focusing on the development and application of the magnetotelluric (MT) method. I developed [FITE2DMT](https://dienodiba.com/FITE2DMT/), a Julia-based MT inversion code for fast and accurate data interpretation. On the side, I offer [professional supports](https://dienodiba.com/MTSolutions/) for data analysis and modeling of MT data.
