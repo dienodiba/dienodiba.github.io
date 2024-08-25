@@ -60,7 +60,7 @@
   border-radius: 5px;
   font-size: 2em;
   font-weight: 400; /* normal text */
-  max-width: 50%; /* Text container will be at most 50% of the parent's width */
+  max-width: 80%; /* Text container will be at most 50% of the parent's width */
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
@@ -81,7 +81,7 @@
   border-radius: 10px; /* Rounded corners */
   text-decoration: none !important; /* Remove underline */
   font-size: 1em; /* Font size */
-  font-weight: 400; /* normal text */
+  font-weight: 500; /* normal text */
   display: inline-block; /* Make it inline-block to respect padding */
   transition: background-color 0.3s ease; /* Smooth background color change */
 }
