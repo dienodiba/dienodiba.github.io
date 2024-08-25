@@ -19,14 +19,14 @@ I earned my Master’s degree in Geophysics from the University of Tokyo, where 
 
 In addition to my research, I am actively involved in geophysical consulting, offering expertise in MT data analysis and modeling. I have been recognized for my contributions with several awards, including the Outstanding Student Presentation Award (OSPA) by the Japan Geoscience Union (JpGU), and have received scholarships for my studies from prestigious organizations such as the SPRING-GX Project and the Indonesian Endowment Fund for Education (LPDP).
 
+Check out my CV [here](/files/CVDienoDiba_20240818.pdf).
+
 ## Connect With Me
 
 Email: dienodiba@gmail.com
 
-Researchgate: Dieno Diba
-
-Google Scholar: Dieno Diba
-
-Instagram: dienodiba
-
-LinkedIn: dienodiba
+[ResearchGate](https://www.researchgate.net/profile/Dieno-Diba-2){:target="_blank"}, 
+[Google Scholar](https://scholar.google.com/citations?user=p5K7lDUAAAAJ&hl=en){:target="_blank"}, 
+[Github](https://github.com/dienodiba){:target="_blank"}, 
+[Instagram](https://www.instagram.com/dienodiba){:target="_blank"}, 
+[LinkedIn](www.linkedin.com/in/dienodiba){:target="_blank"}
