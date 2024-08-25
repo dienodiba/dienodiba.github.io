@@ -79,7 +79,7 @@
   padding: 10px 20px; /* Button padding */
   border: none; /* Remove border */
   border-radius: 10px; /* Rounded corners */
-  text-decoration: none; /* Remove underline */
+  text-decoration: none !important; /* Remove underline */
   font-size: 1em; /* Font size */
   font-weight: 400; /* normal text */
   display: inline-block; /* Make it inline-block to respect padding */
