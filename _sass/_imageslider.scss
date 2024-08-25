@@ -8,13 +8,13 @@
   height: 60%;
   overflow: hidden;
   padding-top: 56.25%; /* 16:9 aspect ratio */
-  float: right;
+  float: left;
 }
 
 .slider-container {
   display: flex;
-  width: 100%; /* Adjust according to number of slides */
-  height: 100%; /* Ensure container height is consistent */
+  width: auto; /* Adjust according to number of slides */
+  height: auto; /* Ensure container height is consistent */
   transition: transform 0.5s ease-in-out;
   position: absolute;
   top: 0;
