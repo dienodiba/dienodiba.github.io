@@ -32,10 +32,42 @@
   overflow: hidden;
 }
 
+.slide a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative; /* Needed for button positioning */
+}
+
 .slide img {
   width: 100%;
   height: 100%;
   object-fit: cover; /* Maintain aspect ratio, fill the container */
+}
+
+/* Button container positioning */
+.button-container {
+  position: absolute;
+  bottom: 10px; /* Adjust spacing from the bottom */
+  left: 10px; /* Adjust spacing from the left */
+}
+
+/* Button styling */
+.learn-more-button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Button padding */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-size: 14px; /* Font size */
+  font-weight: bold; /* Bold text */
+  display: inline-block; /* Make it inline-block to respect padding */
+  transition: background-color 0.3s ease; /* Smooth background color change */
+}
+
+.learn-more-button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
 }
 
 /* Hide all slides by default */
