@@ -15,7 +15,7 @@ redirect_from:
   
   <div class="slider-container">
     <div class="slide">
-      <img src="/images/imageslider/slider-1.jpg" alt="Image 1">
+      <img src="/images/imageslider/slider-1-notext.jpg" alt="Image 1">
       <div class="slide-text-title">MT Solutions</div>
       <div class="button-container">
         <a class="learn-more-button" href="https://dienodiba.com/MTSolutions">Learn more</a>
