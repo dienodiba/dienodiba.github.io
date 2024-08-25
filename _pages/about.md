@@ -40,27 +40,49 @@ redirect_from:
 let currentIndex = 0;
 const slides = document.querySelectorAll('input[name="slider"]');
 const totalSlides = slides.length;
-let slideInterval;
 
-function startSlider() {
-  slideInterval = setInterval(() => {
-    slides[currentIndex].checked = false; 
-    currentIndex = (currentIndex + 1) % totalSlides; 
-    slides[currentIndex].checked = true; 
-  }, 5000); 
+let startX = 0;
+let endX = 0;
+let isTouching = false;
+
+function goToSlide(index) {
+  slides[currentIndex].checked = false;
+  currentIndex = (index + totalSlides) % totalSlides;
+  slides[currentIndex].checked = true;
 }
 
-function resetSlider(index) {
-  clearInterval(slideInterval);
-  currentIndex = index;
-  startSlider();
-}
+// Automatic sliding
+let slideInterval = setInterval(() => {
+  goToSlide(currentIndex + 1);
+}, 5000);
 
-slides.forEach((slide, index) => {
-  slide.addEventListener('change', () => resetSlider(index));
+// Touch event handlers
+const sliderContainer = document.querySelector('.slider-container');
+
+sliderContainer.addEventListener('touchstart', (e) => {
+  isTouching = true;
+  startX = e.touches[0].clientX;
+  clearInterval(slideInterval); // Pause auto-sliding when touched
 });
 
-startSlider();
+sliderContainer.addEventListener('touchmove', (e) => {
+  if (!isTouching) return;
+  endX = e.touches[0].clientX;
+});
+
+sliderContainer.addEventListener('touchend', () => {
+  if (!isTouching) return;
+  const threshold = 50; // Minimum swipe distance in pixels
+  if (startX - endX > threshold) {
+    goToSlide(currentIndex + 1); // Swipe left, go to next slide
+  } else if (endX - startX > threshold) {
+    goToSlide(currentIndex - 1); // Swipe right, go to previous slide
+  }
+  isTouching = false;
+  slideInterval = setInterval(() => {
+    goToSlide(currentIndex + 1);
+  }, 5000); // Restart auto-sliding
+});
 </script>
 
 I’m a PhD student in Geophysics at the University of Tokyo, focusing on the development and application of the magnetotelluric (MT) method. I developed [FITE2DMT](https://dienodiba.com/FITE2DMT/), a Julia-based MT inversion code for fast and accurate data interpretation. On the side, I offer [professional supports](https://dienodiba.com/MTSolutions/) for data analysis and modeling of MT data.
