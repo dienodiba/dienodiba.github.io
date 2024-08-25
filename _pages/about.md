@@ -25,7 +25,7 @@ redirect_from:
     <div class="slide">
       <img src="/images/imageslider/slider-2-notext.jpg" alt="Image 2">
       <div class="slide-text-title">FITE2DMT</div>
-      <div class="slide-text-body">Fast and accurate MT inversion code</div>
+      <div class="slide-text-body">Fast and accurate magnetotelluric inversion</div>
       <div class="button-container">
         <a class="learn-more-button" href="https://dienodiba.com/FITE2DMT">Learn more</a>
       </div>
@@ -41,7 +41,7 @@ redirect_from:
     <div class="slide">
       <img src="/images/imageslider/slider-4-notext.jpg" alt="Image 4">
       <div class="slide-text-title">About Me</div>
-      <div class="slide-text-body">Geophysics PhD student specializing in MT</div>
+      <div class="slide-text-body">Geophysics PhD student at University of Tokyo<\div>
       <div class="button-container">
         <a class="learn-more-button" href="https://dienodiba.com/profile">About me</a>
       </div>
