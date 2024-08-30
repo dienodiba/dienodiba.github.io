@@ -87,7 +87,7 @@ let startX = 0;
 let endX = 0;
 
 function handleSwipe() {
-  const sliderContainer = document.querySelector('.slider-container');
+  const sliderContainer = document.querySelector('.image-slider');
   
   sliderContainer.addEventListener('touchstart', function(e) {
     startX = e.changedTouches[0].screenX;
