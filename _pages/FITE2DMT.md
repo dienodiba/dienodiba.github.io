@@ -16,8 +16,8 @@ author_profile: false
 # A fast and accurate 2-D magnetotelluric inversion code
 FITE2DMT stands for _FInite Triangular Elements for Two-Dimensional MagnetoTelluric_. As the name suggests, it is a two-dimensional (2-D) finite element magnetotelluric (MT) inversion code that uses an unstructured mesh of triangular elements to represent the resistivity structure. The code is freely available for use as a Julia package.
 
-## What are the benefits of using an unstructured mesh in MT inversion?
-Using an unstructured mesh in 2-D MT inversion has some great benefits. It lets you refine the mesh where the geology is complex, which means more accurate results without bogging down your computations. Plus, it’s flexible enough to handle tricky geological features like faults and varying topographies. This means the inversion can better capture the real subsurface details. On top of that, unstructured meshes help optimize your computational resources by reducing the number of elements needed, making the process more efficient and precise.
+## What are the benefits of using unstructured meshes in MT inversion?
+Using unstructured meshes in 2-D MT inversion has some great benefits. It lets you refine the mesh where the geology is complex, which means more accurate results without bogging down your computations. Plus, it’s flexible enough to handle tricky geological features like faults and varying topographies. This means the inversion can better capture the real subsurface details. On top of that, unstructured meshes help optimize your computational resources by reducing the number of elements needed, making the process more efficient and precise.
 
 ## Why [Julia](https://julialang.org/){:target="_blank"}?
 Julia has a lot of upsides when it comes to MT inversion. It is super fast and handles complex calculations efficiently. Its syntax is pretty user-friendly and a lot like Python’s or MATLAB's, but it is as speedy as C or Fortran. This makes it great for creating complicated inversion algorithms. Plus, Julia has a ton of libraries for scientific computing, including stuff for linear algebra and parallel processing, which are crucial for MT inversion. It also integrates well with other tools and libraries, making it flexible and easy to scale up the code.
@@ -32,7 +32,6 @@ Apparent resistivity, phase, and _tipper_
 - Reciprocity method for assembling the sensitivity matrix
 
 For more please check out the original documentation of FITE2DMT here:
-
 Diba D, Nurhasan, Uyeshima M, Usui Y (2024) Two-dimensional magnetotelluric inversion using unstructured triangular mesh implemented in Julia. Journal of Physics: Conference Series, **2734** 012008. [doi.org/10.1088/1742-6596/2734/1/012008](https://doi.org/10.1088/1742-6596/2734/1/012008){:target="_blank"}.
 
 ## Considering trying out FITE2DMT?
