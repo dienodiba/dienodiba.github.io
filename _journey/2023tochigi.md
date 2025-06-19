@@ -7,7 +7,7 @@ author_profile: false
 ---
 
 
-Excited to be part of the magnetotelluric field survey in Tochigi, Japan, for my supervisor's project—an amazing blend of hands-on research and stunning scenery.
+Excited to be part of the magnetotelluric field survey in Tochigi, Japan, for my supervisor's project. It was an amazing blend of hands-on research and stunning scenery.
 
 <img src="/images/journey/2023_tochigi/tochigi-1.jpg" style="width:100%; box-shadow: 0px 0px 0px darkgray; border-radius: 0px;">
 
