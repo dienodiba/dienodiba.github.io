@@ -41,7 +41,7 @@ redirect_from:
     <div class="slide">
       <img src="/images/imageslider/slider-4-notext.jpg" alt="Image 4">
       <div class="slide-text-title">About Me</div>
-      <div class="slide-text-body">Researcher at DIAS specializing in MT</div>
+      <div class="slide-text-body">Researcher working on a geothermal exploration project</div>
       <div class="button-container">
         <a class="learn-more-button" href="https://dienodiba.com/profile">View my profile</a>
       </div>
