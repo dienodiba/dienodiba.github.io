@@ -19,7 +19,7 @@ I have been fortunate to receive recognition my work, including the Outstanding 
 
 Alongside research, I have also started engaging in consulting work, where I provide specialized expertise in analyzing and modeling MT data.
 
-Check out my CV [here](/files/CVDienoDiba_20250719.pdf).
+Check out my CV [here](/files/CVDienoDiba_20251213.pdf).
 
 ## Get in Touch
 
