@@ -9,9 +9,9 @@ author_profile: false
 
 ## About Me
 
-<img src="/images/Profile 20241005_cropped.JPG" style="width:30%; float:left; border-radius: 5px; margin-right: 1em; margin-top: 1.2em; margin-bottom: 0em">
+<img src="/images/Dieno_Jokulsarlon.JPG" style="width:30%; float:left; border-radius: 5px; margin-right: 1em; margin-top: 1.2em; margin-bottom: 0em">
 
-I am a postdoctoral researcher at the Dublin Institute for Advanced Studies (DIAS), working within the Geophysics Section of the School of Cosmic Physics. My work is part of the GEMINI project—a multi-partner, all-island geothermal energy demonstration initiative supported by the PEACEPLUS programme. At DIAS, I focus on magnetotelluric (MT) data analysis, three-dimensional inversion and modelling, and petrophysical measurements to improve geothermal resource understanding in County Antrim, Northern Ireland. This research targets the Sherwood Sandstone Group, a regionally significant aquifer, and aims to support decarbonization goals for Ireland and Northern Ireland through sustainable geothermal development.
+I am a postdoctoral researcher at the Dublin Institute for Advanced Studies (DIAS), working within the Geophysics Section of the School of Cosmic Physics. My work is part of the GEMINI project. I focus on magnetotelluric (MT) data analysis, three-dimensional inversion and modelling, and petrophysical measurements to improve geothermal resource understanding in County Antrim, Northern Ireland.
 
 I completed my PhD and Master’s degrees in Geophysics at the University of Tokyo, where I focused on the MT method to investigate how fluids and melts influence magmatic and seismic activity in the Northeast Japan subduction zone. As part of my doctoral research, I developed a 3-D MT inversion scheme that incorporates guiding structural models. During my Master’s study, I created a 2-D inversion code using MATLAB and Julia and applied it to MT data from the same region. I earned my undergraduate degree in Physics from the Bandung Institute of Technology (ITB), where I mapped thermal demagnetization zones around Papandayan Volcano using geomagnetic data.
 
