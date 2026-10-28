@@ -9,7 +9,7 @@ author_profile: false
 
 ## About Me
 
-<img src="/images/Dieno_Jokulsarlon.JPG" style="width:30%; float:left; border-radius: 5px; margin-right: 1em; margin-top: 1.2em; margin-bottom: 0em">
+<img src="/images/Dieno_Jokulsarlon.jpg" style="width:30%; float:left; border-radius: 5px; margin-right: 1em; margin-top: 1.2em; margin-bottom: 0em">
 
 I am a postdoctoral researcher at the Dublin Institute for Advanced Studies (DIAS), working within the Geophysics Section of the School of Cosmic Physics. As part of the [GEMINI](https://www.geminigeothermal.com/){:target="_blank"} project, my work focuses on magnetotelluric (MT) data analysis, three-dimensional inversion and modelling, and petrophysical measurements to improve geothermal resource understanding of the Lough Neagh Basin in Northern Ireland.
 
